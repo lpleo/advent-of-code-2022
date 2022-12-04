@@ -27,11 +27,11 @@ fun main() {
                 }.sumOf { identifier -> if (identifier.isUpperCase()) identifier.code - 'A'.code + 27 else identifier.code - 'a'.code + 1 }
     }
 
-    val testInput = readInput("files/Day04_test")
+    val testInput = readInput("files/Day03_test")
     check(part1(testInput) == 157)
     check(part2(testInput) == 70)
 
-    val input = readInput("files/Day04")
+    val input = readInput("files/Day03")
     println(part1(input))
     println(part2(input))
 }
