@@ -1,4 +1,4 @@
-package day04
+package day03
 
 import readInput
 
